@@ -5,6 +5,7 @@ const navItems = [
   { to: '/', label: 'Tableau de bord' },
   { to: '/transactions', label: 'Transactions' },
   { to: '/budgets', label: 'Budgets' },
+  { to: '/budget-chart', label: 'Répartition' },
   { to: '/settings', label: 'Paramètres' },
 ]
 
