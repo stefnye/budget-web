@@ -6,6 +6,7 @@ import Dashboard from './pages/Dashboard'
 import Transactions from './pages/Transactions'
 import Budgets from './pages/Budgets'
 import Settings from './pages/Settings'
+import BudgetChart from './pages/BudgetChart'
 
 function ProtectedRoute({ children }) {
   const { isAuthenticated } = useAuth()
@@ -30,6 +31,7 @@ function AppRoutes() {
         <Route index element={<Dashboard />} />
         <Route path="transactions" element={<Transactions />} />
         <Route path="budgets" element={<Budgets />} />
+        <Route path="budget-chart" element={<BudgetChart />} />
         <Route path="settings" element={<Settings />} />
       </Route>
     </Routes>
